@@ -2,60 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19" started-at="2018-03-06T05:18:11Z" finished-at="2018-03-06T05:18:11Z">
+  <suite name="Default suite" duration-ms="30170" started-at="2018-03-20T14:53:09Z" finished-at="2018-03-20T14:53:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19" started-at="2018-03-06T05:18:11Z" finished-at="2018-03-06T05:18:11Z">
-      <class name="testSequence">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testSequence@4667ae56]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
+    <test name="Default test" duration-ms="30170" started-at="2018-03-20T14:53:09Z" finished-at="2018-03-20T14:53:39Z">
+      <class name="test.test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:test.test@464bee09]" name="OpenBrowser" is-config="true" duration-ms="14498" started-at="2018-03-20T20:23:09Z" finished-at="2018-03-20T20:23:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testSequence@4667ae56]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenUrl()[pri:0, instance:test.test@464bee09]" name="OpenUrl" duration-ms="13333" started-at="2018-03-20T20:23:24Z" finished-at="2018-03-20T20:23:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testSequence@4667ae56]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
+        </test-method> <!-- OpenUrl -->
+        <test-method status="PASS" signature="handleAlerts()[pri:0, instance:test.test@464bee09]" name="handleAlerts" duration-ms="2276" started-at="2018-03-20T20:23:37Z" depends-on-methods="test.test.OpenUrl" finished-at="2018-03-20T20:23:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSequence@4667ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
+        </test-method> <!-- handleAlerts -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.test@464bee09]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-03-20T20:23:39Z" finished-at="2018-03-20T20:23:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:testSequence@4667ae56]" name="testCase1" duration-ms="4" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSequence@4667ae56]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSequence@4667ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:testSequence@4667ae56]" name="testCase2" duration-ms="1" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSequence@4667ae56]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testSequence@4667ae56]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testSequence@4667ae56]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:11Z" finished-at="2018-03-06T10:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testSequence@4667ae56]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-03-06T10:48:12Z" finished-at="2018-03-06T10:48:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testSequence -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

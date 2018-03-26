@@ -22,23 +22,27 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_151"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/byte-buddy-1.7.9.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/guava-23.6-jre.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/okhttp-3.9.1.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/libs/okio-1.13.0.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/client-combined-3.9.1.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.9.1/client-combined-3.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/client-combined-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/client-combined-3.11.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/byte-buddy-1.7.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/guava-23.6-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/okhttp-3.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepak.kumar/Desktop/Jar/libs/okio-1.13.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

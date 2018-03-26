@@ -1,3 +1,4 @@
+package test;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -13,14 +14,14 @@ public class testSequence {
 
 //	 test case 1
 
-	@Test
+	@Test 
 	public void testCase1() {
 	System.out.println("Executing test case 1");
 	}
 
 	// test case 2
 
-	@Test
+	@Test (dependsOnMethods="testCase11")
 	public void testCase2() {
 	System.out.println("Executing test case 2");
 	}
