@@ -3,9 +3,9 @@
 <suite thread-count="1" name="Suite" parallel="methods">
   <test name="Test">
     <classes>
-      <!-- <class name="test.testSequence"/>
-      <class name="test.test"/> -->
-      <class name="test.ParallelExecutionTest"/>
+      <!-- <class name="test.testSequence"/>  -->
+      <class name="test.test"/>
+      <!-- <class name="test.ParallelExecutionTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
