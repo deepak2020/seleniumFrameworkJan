@@ -33,10 +33,10 @@ public class CommonMethod {
 			
 	 		String Node = " http://172.21.65.54:4444/wd/hub";
 	 		String sauceLab = "http://pyneema:dd01d1a4-ffc5-4db3-ab46-e591492aedbf@ondemand.saucelabs.com:80/wd/hub";
-	 		DesiredCapabilities cap = DesiredCapabilities.edge();
+	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 	 		cap.setPlatform(Platform.WIN10);
 	 		cap.setCapability("name", "Web Driver demo Test");
-//	 		cap.setVersion("65");
+	 		cap.setVersion("65");
 	 		driver = new RemoteWebDriver(new java.net.URL(sauceLab), cap);		
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
